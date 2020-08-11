@@ -1,0 +1,317 @@
+                /*APRESENTAÇÃO*/
+
+#menu{
+
+    position: fixed;
+    width:100%;
+    z-index: 9;
+    width: 100%;
+    margin-right: 250px;
+    background-color: rgb(8, 8, 8,0.8);
+
+}
+
+.header-site{
+    background-image: url(/src/assets/CSS/img/Decoração-de-barbearia-vale-a-pena-3-benefícios-infalíveis-para-acabar-de-vez-com-essa-dúvida-1280x720.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 300px;
+    padding-bottom: 450px;
+}
+
+@font-face{
+    font-family: "avocado";
+    src: url(/src/assets/CSS/fontes/avocado/AvocadoCreamy.ttf);
+}
+
+@font-face{
+    font-family: "avocado2";
+    src: url(/src/assets/CSS/fontes/avocado/AvocadoCreamy.otf);
+}
+
+#Title{
+    font-family: "avocado";
+    font-size: 80px;
+    padding-top: 100px;
+    text-shadow: 2px 0px 0px rgb(0, 0, 0), 
+                 -2px 0px 0px rgb(0, 0, 0), 
+                 0px 2px 0px rgb(0, 0, 0), 
+                 0px -2px 0px rgb(0, 0, 0);
+}
+
+#hours{
+    text-shadow: 2px 0px 0px rgb(0, 0, 0), 
+                 -2px 0px 0px rgb(0, 0, 0), 
+                 0px 2px 0px rgb(0, 0, 0), 
+                 0px -2px 0px rgb(0, 0, 0);
+    color: rgb(238, 90, 90);
+    font-size: 50px;
+    font-family: "avocado2";
+    margin-top: 30px;
+}
+
+                /*SECTION SOBRE NÓS*/
+
+.content-site{
+    background-image: url(/src/assets/CSS/img/fundo.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+@font-face{
+    font-family: 'Barber';
+    src: url(/src/assets/CSS/fontes/Barber\ Street_PersonalUseOnly.ttf);
+}
+
+#text01{
+    color: rgb(226, 226, 226);
+    font-family: "avocado";
+    font-size: 70px;
+    text-shadow: 2px 0px 0px rgb(0, 0, 0), 
+                 -2px 0px 0px rgb(0, 0, 0), 
+                 0px 2px 0px rgb(0, 0, 0), 
+                 0px -2px 0px rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+#text02{
+    font-size: 25px;
+    font-family: "avocado2";
+    text-shadow: 2px 0px 0px rgb(0, 0, 0), 
+                 -2px 0px 0px rgb(0, 0, 0), 
+                 0px 2px 0px rgb(0, 0, 0), 
+                 0px -2px 0px rgb(0, 0, 0);
+}
+
+
+.card-title{
+    color: black;
+    font-family: 'avocado';
+    font-size: 60px;
+    margin-left: 70px;
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(/src/assets/CSS/fontes/Roboto-ThinItalic.ttf);
+}
+
+.card-text{
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.card{
+    margin-left: 300px;  
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.664); 
+    border-radius: 100px;
+}
+
+#group{
+    margin-top: 100px;
+}
+
+img{
+    height: 400px;
+}
+
+#BUTTON{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+}
+
+                /*SLIDER DEPOIMENTOS*/
+
+#depo{
+    font-family: "avocado";
+    margin-top: 100px;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 0px 0px rgb(0, 0, 0), 
+                 -2px 0px 0px rgb(0, 0, 0), 
+                 0px 2px 0px rgb(0, 0, 0), 
+                 0px -2px 0px rgb(0, 0, 0);
+}
+
+* { margin: 0; padding: 0;}
+.slider {
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.774);
+    border-radius: 30px;
+    display: block;
+    height: 234px;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;   
+}
+
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+
+.slider img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input{
+    display: none;
+}
+
+.slider label{
+    background-color: rgb(255, 255, 255);
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+    margin-left: 500px;
+    
+}
+
+.slider li:nth-child(1) label{
+    left: 10px;
+}
+.slider li:nth-child(2) label{
+    left: 40px;
+}
+.slider li:nth-child(3) label{
+    left: 70px;
+}
+
+.slider img{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+/*.slide-show{
+    overflow: hidden;
+  }
+
+.slider{
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    width: 400%;
+    --total-items: 3
+    width: calc(var(--total-items) * 100%);
+    position: relative;
+    left: 0%;
+    --selected-item: 0;
+    position: relative;
+    left: calc(var(--selected-item) * -100%);
+}
+.slide-controller:nth-child(1):checked ~ .slide-show .slider{--selected-item: 0;}
+.slide-controller:nth-child(2):checked ~ .slide-show .slider{--selected-item: 1;}
+.slide-controller:nth-child(3):checked ~ .slide-show .slider{--selected-item: 2;}*/
+
+
+                /*SECTION CONTATOS*/
+
+.contact{
+    background-image: url(/src/assets/CSS/img/fundo2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.contato{
+    text-align: center;
+    font-family: "avocado";
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.et_pb_column_16 {
+    padding-top: 100px;
+    padding-right: 10%;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    z-index: 9;
+    position: relative;
+}
+
+.et_pb_column_17 {
+    padding-top: 100px;
+    padding-right: 10%;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    z-index: 9;
+    position: relative;
+}
+
+/*CURTA E COMPARTILHE*/
+
+#logo1{
+    height: 50px;
+}
+#logo1name{
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+#logo2{
+    height: 50px;
+}
+
+#logo2name{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+/*FLOAT WHATS APP*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px rgb(3, 46, 1);
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
